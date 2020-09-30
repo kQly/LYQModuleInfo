@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LYQModuleInfo_Example' do
+  pod 'LYQModuleInfo', :path => '../'
+
+  target 'LYQModuleInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
