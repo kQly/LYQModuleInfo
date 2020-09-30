@@ -1,0 +1,22 @@
+{
+  "name": "LYQModuleInfo",
+  "version": "0.1.0",
+  "summary": "A short description of LYQModuleInfo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LYQ/LYQModuleInfo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYQ": "ryan21.qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LYQ/LYQModuleInfo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYQModuleInfo/Classes/**/*"
+}

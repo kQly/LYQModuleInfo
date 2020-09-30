@@ -1,0 +1,16 @@
+PODS:
+  - LYQModuleInfo (0.1.0)
+
+DEPENDENCIES:
+  - LYQModuleInfo (from `../`)
+
+EXTERNAL SOURCES:
+  LYQModuleInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYQModuleInfo: c124a24a45ddaf3d916e93c69b795190d363adbe
+
+PODFILE CHECKSUM: 4315077275d7c04099eb9424d745c7e5d60a747b
+
+COCOAPODS: 1.9.3

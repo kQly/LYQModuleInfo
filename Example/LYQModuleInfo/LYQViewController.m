@@ -7,8 +7,11 @@
 //
 
 #import "LYQViewController.h"
+#import "LYQModuleInfo.h"
 
-@interface LYQViewController ()
+
+@LYQMod(LYQViewController)
+@interface LYQViewController ()<LYQModuleDelegate>
 
 @end
 
@@ -18,12 +21,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@", [[LYQModuleCache shareInstance] moduleInfoArray]);
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (NSDictionary *)moduleInfo {
+    return @{
+        @"title": @"title",
+        @"detail": @"detail",
+        @"class": @"YLViewController",
+    };
 }
 
 @end

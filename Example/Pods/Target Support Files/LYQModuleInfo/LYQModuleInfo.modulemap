@@ -1,0 +1,6 @@
+framework module LYQModuleInfo {
+  umbrella header "LYQModuleInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
